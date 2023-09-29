@@ -1,47 +1,37 @@
 # Sales Predictor
+<div align="center">
 
-![Badge](https://img.shields.io/badge/python-3.x-blue?logo=python)
-![Badge](https://img.shields.io/badge/Pandas-Library%20Used-red)
-![Badge](https://img.shields.io/badge/Numpy-Library%20Used-lightgrey)
-![Badge](https://img.shields.io/badge/Matplotlib-Library%20Used-yellow)
-![Badge](https://img.shields.io/badge/Seaborn-Library%20Used-yellowgreen)
-![Badge](https://img.shields.io/badge/Tensorflow-Library%20Used-green)
+![Python Badge](https://img.shields.io/badge/python-3.x-blue?logo=python) ![Pandas Badge](https://img.shields.io/badge/Pandas-Library%20-red) ![Numpy Badge](https://img.shields.io/badge/Numpy-Library%20Used-lightgrey) ![Matplotlib Badge](https://img.shields.io/badge/Matplotlib-Library%20-yellow) ![Seaborn Badge](https://img.shields.io/badge/Seaborn-Library%20Used-yellowgreen) 
+![Tensorflow Badge](https://img.shields.io/badge/Tensorflow-Library%20Used-green)
 
-## Table of Contents
+*Making Forecasting Easy Because Knowing The Future Trends Is A Superpower!!*
 
-- [About](#about)
-- [Installation and Setup](#installation-and-setup)
+</div>
+
+## :dart: **About**
+**Sales Predictor**, a robust tool, implemented in Python, is perfect for organisations that wish to utilise their historical sales data to predict future sales trends. It showcases how data-driven decisions can skyrocket business success! 
+
+---
+
+## :pushpin: **Table of Contents**
+- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
+- [Key Features](#key-features)
 - [Libraries Used](#libraries-used)
-- [Dataset and Null Value Handling](#dataset-and-null-value-handling)
-- [Contribute](#contribute)
+- [Data Handling](#data-handling)
+- [Support and Contribution](#support-and-contribution)
 - [Author](#Author)
+---
 
-## About
+## :computer: **Getting Started**
+Start Harnessing the power of Machine Learning to predict your future sales. 
 
-Sales Predictor, implemented in Python, aims to utilize historical sales data to predict future sales trends. The project consists of a Google Colab Notebook, accessible via Google Drive link.
+Clone this repository to your machine & upload the notebook files to *Google Colab* or run in a *Jupyter Notebook* environment.
 
-## Installation and Setup
+## :package: **Installation**
 
-To install and setup this project, follow these steps:
-
-1. Clone this repository to your machine.
-2. Upload the notebook files to Google Colab or open them in a Jupyter Notebook environment.
-3. Ensure to install the necessary libraries listed under "Libraries Used" section.
-
-## Usage
-
-Simply run the `Sales Predictor.ipynb` notebook via your chosen environment (Google Colab, Jupyter Notebook etc).
-
-## Features
-
-- Comprehensive data analysis
-- Heatmap visualization for null values
-- Predictive modeling using Tensorflow and Keras
-- Model evaluation and performance measures
-
-## Libraries Used
+The Project uses the power of several python libraries, which can be installed using pip command:
 
 - csv
 - numpy
@@ -50,18 +40,36 @@ Simply run the `Sales Predictor.ipynb` notebook via your chosen environment (Goo
 - tensorflow
 - keras
 - matplotlib
-- sklearn.linear_model
+ sklearn.linear_model
 - sklearn.model_selection
 
-## Dataset and Null Value Handling
+## :rocket: **Usage**
 
-CSV file-formatted datasets are utilised for this project, comprising several headers including 'Item Identifier', 'Item Weight', 'Item Fat Content', and so on. All potential null values present within the datasets are duly handled, and visually represented using heatmaps.
+Begin with running `Sales_Predictor.ipynb` in your preferred notebook environment.
 
-## Contribute
+## :tada: **Key Features**
 
-Contributions, improvements, and updates are very welcome. Feel free to clone the project and introduce your changes. Do not forget to leave a star if you found this project useful!
+Sales Predictor enfolds several powerful features:
 
-## Author
+- Extensive data analysis
+- Crisp visualisations
+- Heatmaps for better understanding of data correlations
+- Implementation of deep learning with *Tensorflow* and *Keras*
+- Comprehensive performance evaluation metrics
+
+## :books: **Libraries Used**
+
+Sales Predictor extensively uses several Python Libraries like CSV, Numpy, Pandas, Seaborn, Matplotlib and Sklearn beside TensorFlow and Keras for accurate predictions.
+
+## :page_facing_up: **Data Handling**
+
+The project primarily uses CSV-formatted datasets. Comprehensive pre-processing is performed, addressing potential null values in datasets along with beautiful heatmap representations to visualize correlations.
+
+## :handshake: **Support and Contribution**
+
+Feel free to fork the project, post issues, raise pull requests or provide feedback. Don't forget to star the repo, if you like our project!
+
+## :memo: **Author**
 
 ### [Samadrita Kar]
 
@@ -71,4 +79,4 @@ If you find this project helpful or use it in your work, I'd appreciate a shouto
 
 Thank you for using and contributing to this project!
 
-
+---  
