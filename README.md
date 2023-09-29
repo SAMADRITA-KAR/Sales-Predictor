@@ -1,6 +1,6 @@
 # Sales Predictor
 
-![Badge](https://img.shields.io/badge/python-3.9-blue?logo=python)
+![Badge](https://img.shields.io/badge/python-3.x-blue?logo=python)
 ![Badge](https://img.shields.io/badge/Pandas-Library%20Used-red)
 ![Badge](https://img.shields.io/badge/Numpy-Library%20Used-lightgrey)
 ![Badge](https://img.shields.io/badge/Matplotlib-Library%20Used-yellow)
@@ -10,23 +10,36 @@
 ## Table of Contents
 
 - [About](#about)
+- [Installation and Setup](#installation-and-setup)
+- [Usage](#usage)
 - [Features](#features)
 - [Libraries Used](#libraries-used)
-- [Setup](#setup)
 - [Dataset and Null Value Handling](#dataset-and-null-value-handling)
 - [Contribute](#contribute)
-- [License](#license)
+- [Author](#Author)
 
 ## About
 
-Sales Predictor is a Python-based project designed to predict future sales using past sales data. The main part of the project is a Google Colab Notebook that you can access via the given Google Drive link.
+Sales Predictor, implemented in Python, aims to utilize historical sales data to predict future sales trends. The project consists of a Google Colab Notebook, accessible via Google Drive link.
+
+## Installation and Setup
+
+To install and setup this project, follow these steps:
+
+1. Clone this repository to your machine.
+2. Upload the notebook files to Google Colab or open them in a Jupyter Notebook environment.
+3. Ensure to install the necessary libraries listed under "Libraries Used" section.
+
+## Usage
+
+Simply run the `Sales Predictor.ipynb` notebook via your chosen environment (Google Colab, Jupyter Notebook etc).
 
 ## Features
 
-- Descriptive data analysis
-- Data visualization using seaborn and matplotlib
-- Model training using TensorFlow and Keras
-- Performance evaluation
+- Comprehensive data analysis
+- Heatmap visualization for null values
+- Predictive modeling using Tensorflow and Keras
+- Model evaluation and performance measures
 
 ## Libraries Used
 
@@ -40,23 +53,22 @@ Sales Predictor is a Python-based project designed to predict future sales using
 - sklearn.linear_model
 - sklearn.model_selection
 
-## Setup
-
-To run this project, follow these steps:
-
-1. Clone/download this repository to your machine.
-2. Upload the notebook files to Google Colab or run them in a Jupyter Notebook environment.
-3. Ensure the necessary libraries are installed on your Python environment.
-4. Run `Sales Predictor.ipynb`.
-
 ## Dataset and Null Value Handling
 
-The included datasets are in CSV format. They contain headers such as 'Item Identifier', 'Item Weight', 'Item Fat Content', etc. Potential null values within the datasets are handled and visualized using seaborn.
+CSV file-formatted datasets are utilised for this project, comprising several headers including 'Item Identifier', 'Item Weight', 'Item Fat Content', and so on. All potential null values present within the datasets are duly handled, and visually represented using heatmaps.
 
 ## Contribute
 
-Feel free to clone this project, and any improvements or updates you can provide are welcomed. Don't forget to leave a star rating if you've found this project helpful!
+Contributions, improvements, and updates are very welcome. Feel free to clone the project and introduce your changes. Do not forget to leave a star if you found this project useful!
 
-## License
+## Author
 
-[MIT](https://choosealicense.com/licenses/mit/)
+### [Samadrita Kar]
+
+- GitHub: [@Samadrita_Kar](https://github.com/SAMADRITA-KAR)
+
+If you find this project helpful or use it in your work, I'd appreciate a shoutout or a star ⭐️ on GitHub.
+
+Thank you for using and contributing to this project!
+
+
